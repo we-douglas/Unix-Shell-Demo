@@ -1,0 +1,4 @@
+All:
+	gcc -o program myShellFinal.c
+	./program
+

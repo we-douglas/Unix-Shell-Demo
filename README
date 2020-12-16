@@ -1,0 +1,72 @@
+README Project 1 Unix Shell (2/14/2020) 
+William Douglas
+  
+    This program builds a small unix shell upon execution. 
+    The shell suports many basic commands such as ls -l
+    which operate simarlarly to a normal unix shell. 
+    Here is a highlight of some  important commands supported by the shell
+    
+    
+    Input output redirection:
+    ">" and "<" act as redirection operators in this shell.
+    for example:
+   
+    ls -l > out.txt
+    will print the output of the command ls -l into the file out.txt
+    you can use other files outside the main dir but you must provide
+    a root path for these files.
+    
+    
+    sort < in.txt
+    the "<" operator will execute the command on the left with the command
+    on the right.
+    
+    
+    History:
+    the "!!" command is used to execute the last command executed on the shell.
+    if there is no history on the shell a note will be printed.
+    
+    Pipe command:
+    the "|" command is used to execute a command on the right with the execution of
+    the command on the left of the pipe.
+    for example,
+    
+    ls -l | less
+    will execute the less command with the ls -l command.
+    this was implemented by changing the ls -l | less command into two commands who 
+    are forked off eachother. so ls -l | less becomes ls -l > pipe  ; less < pipe
+    for this reason it is CRITICAL that the pipe file not be deleted or moved from 
+    its current location in the main dir if this is done the pipe command will not run!
+    
+    Type "exit" to end the program.
+   
+   
+    BOUNUS FEATURES:
+    
+	"cd"	  functions are implemented with chdir so navigation is a thing
+	
+	";"	  you can chain seperate commands together with a ";" the commands will not 
+		  work together like the | command but its nice to have for testing
+	
+	"help"	  prints this README file out in the terminal because why not.
+    
+	"path>"	  the main method will look at the users location and print it to the left of the input area
+		  before every command.
+     
+     
+     For Best Use:
+     
+	* dont touch the pipe file in main dir
+	* be aware of spaces in the input. the system uses spaces to delimit arguments of a 
+	  command so ls-l will fail but ls -l will work fine. this is true of all commands in
+	  the shell.
+	* be aware of file paths from main dir if you wish to use < or > commands
+    
+   
+
+  
+  To Run:
+    navigate to the main dir of the project
+    execute:	$make in any terminal
+    type exit to exit the shell.
+    

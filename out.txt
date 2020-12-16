@@ -1,0 +1,24 @@
+total 68
+-rw-r--r-- 1 student users    40 Feb 13 12:48 Makefile
+-rw-r--r-- 1 student users    48 Oct 11 18:21 Makefile~
+-rw-r--r-- 1 student users  1375 Feb 13 20:38 README
+-rw-r--r-- 1 student users    51 Feb 14 01:01 in.txt
+-rw-r--r-- 1 student users   169 Feb 13 20:22 intro.txt
+-rw-r--r-- 1 student users 12076 Feb 14 03:02 myShellFinal.c
+-rw-r--r-- 1 student users  7605 Feb 11 20:19 myShellFinal.c~
+-rwxr-xr-x 1 student users 17327 Feb 14 03:02 osh
+-rw-r--r-- 1 student users     0 Feb 14 02:43 out.txt
+-rw-r--r-- 1 student users     2 Feb 14 02:33 pipe.txt
+drwxr-xr-x 2 student users  4096 Feb 14 02:55 safe
+total 76
+-rw-r--r-- 1 student users    40 Feb 13 12:48 Makefile
+-rw-r--r-- 1 student users    48 Oct 11 18:21 Makefile~
+-rw-r--r-- 1 student users  1375 Feb 13 20:38 README
+-rw-r--r-- 1 student users    51 Feb 14 01:01 in.txt
+-rw-r--r-- 1 student users   169 Feb 13 20:22 intro.txt
+-rw-r--r-- 1 student users  7907 Feb 14 11:59 myShellFinal.c
+-rw-r--r-- 1 student users 12651 Feb 14 04:25 myShellFinal.c~
+-rwxr-xr-x 1 student users 16937 Feb 14 11:59 osh
+-rw-r--r-- 1 student users   615 Feb 14 03:05 out.txt
+-rw-r--r-- 1 student users     1 Feb 14 11:53 pipe.txt
+drwxr-xr-x 3 student users  4096 Feb 14 11:54 safe
